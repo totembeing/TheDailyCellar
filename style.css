@@ -52,6 +52,10 @@ body,html {
     align-items: center;
 }
 
+.newPage{
+    border-bottom: 1.5px solid black;
+}
+
 .linksNav{
     display: flex;
     gap: 1rem;
@@ -166,7 +170,7 @@ ion-icon{
     font-size: 1.2rem;
 }
 
-.footerComp > .credits > a{
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
+.footerComp > .credits > span{
+    border-bottom: 1.5px solid black;
 }
+
