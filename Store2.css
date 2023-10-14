@@ -81,7 +81,6 @@ ion-icon{
 
 .mainContent{
     height: 195%;
-    border: 2px solid black;
     display: flex;
     justify-content: space-around;
 }
@@ -89,20 +88,23 @@ ion-icon{
 .mainContentComp{
     height: 100%;
     width: 90%;
-    border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 12rem 36rem 36rem;
 }
 
 .comp{
-    border: 2px solid black;
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
 }
 
 .text{
     grid-column: span 3;
     display: flex;
+    justify-content: center;
+    font-size: 3rem;
     align-items: center;
 }
 
@@ -128,4 +130,46 @@ ion-icon{
 
 .footerComp > .credits > span{
     border-bottom: 1.5px solid black;
+}
+
+.image{
+    flex: 4;
+}
+
+.price{
+    flex: 1;
+}
+
+.chokuto{
+    background: url(images/chokuto.jpg);
+    background-size: cover;
+}
+
+.wakizashi{
+    background: url(images/Wakizashi.jpg);
+    background-size: cover;
+}
+
+.katana{
+    background: url(images/katana.jpg);
+    background-size: cover;
+}
+
+.tanto{
+    background: url(images/tanto.jpg);
+    background-size: cover;
+}
+
+.shuriken{
+    background: url(images/shuriken.jpg);
+    background-size: cover;
+}
+
+.kusariGama{
+    background: url(images/kusariGama.jpg);
+    background-size: cover;
+}
+
+.price > p{
+    font-size: 1.2rem;
 }
