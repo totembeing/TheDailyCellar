@@ -140,34 +140,51 @@ ion-icon{
     flex: 1;
 }
 
+.weapon > a{
+    height: 100%;
+    width: 100%;
+}
+
 .chokuto{
     background: url(images/chokuto.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .wakizashi{
     background: url(images/Wakizashi.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .katana{
     background: url(images/katana.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .tanto{
     background: url(images/tanto.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .shuriken{
     background: url(images/shuriken.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .kusariGama{
     background: url(images/kusariGama.jpg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .price > p{

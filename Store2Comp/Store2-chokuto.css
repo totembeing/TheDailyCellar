@@ -1,0 +1,146 @@
+body,html {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.heading{
+    height: 8rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingComp{
+    height: 3rem;
+    background-color: white;
+    width: 90%;
+    display: flex;
+}
+
+.titleAndLinks{
+    flex: 11;
+    background-color: white;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.logos{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title > p {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.links{
+    flex: 4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.store2{
+    border-bottom: 1.5px solid black;
+}
+
+.linksNav{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logosComp{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15%;
+}
+
+ion-icon{
+    font-size: 1.3rem;
+}
+
+.mainContent{
+    height: 81%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContentComp{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    flex: 1;
+}
+
+.image > img{
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.text{
+    flex: 1;
+}
+
+.text > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    padding-right: 2rem;
+}
+
+.text > h1{
+    font-family: 'Nuku Nuku', sans-serif;    
+    font-size: 3rem;                                           
+}
+
+.text > h1 > .oblique{
+    font-size: 2rem;
+}
+
+
+.text > h1 > .japaneseName{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.text > h1 > .japaneseName:hover, .englishName:hover{
+    border-bottom: 2px solid black;
+}
+
+.buyNow{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyNow > a{
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
