@@ -129,6 +129,7 @@ ion-icon{
 
 .text > h1 > .japaneseName:hover, .englishName:hover{
     border-bottom: 2px solid black;
+    -webkit-transition: border-bottom 0.1s;
 }
 
 .buyNow{
