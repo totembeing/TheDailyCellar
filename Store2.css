@@ -93,6 +93,10 @@ ion-icon{
     grid-template-rows: 12rem 36rem 36rem;
 }
 
+.mainContentComp > .text{
+    border-bottom: .5px solid black;
+}
+
 .comp{
     margin: 2rem;
     display: flex;
