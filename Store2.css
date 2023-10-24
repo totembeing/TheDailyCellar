@@ -120,8 +120,20 @@ ion-icon{
 }
 
 .weapon > a > div:hover{
-    border-radius: 50rem;
-    -webkit-transition: border-radius .3s;
+    height: 105%;
+    width: 105%;
+    -webkit-transition: border-radius 0.3s;
+}
+
+.weapon > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.weapon > a:hover{
+    border-radius: 1rem;
 }
 
 .footerComp{
